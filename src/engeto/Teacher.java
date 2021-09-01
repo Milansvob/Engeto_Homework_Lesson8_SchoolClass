@@ -1,17 +1,15 @@
 package engeto;
 
 public class Teacher {
-    private String firstName;
-    private String surName;
+    protected String firstName;
+    protected String surName;
 
     public Teacher(String firstName, String surName) {
         this.firstName = firstName;
         this.surName = surName;
     }
 
-    public String getFirstName() {
-        return firstName;
-    }
+    public String getFirstName() {return firstName;}
 
     public void setFirstName(String firstName) {
         this.firstName = firstName;

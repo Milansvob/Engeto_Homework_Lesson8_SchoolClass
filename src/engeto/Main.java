@@ -17,9 +17,11 @@ public class Main {
         System.out.println(schoolClass4C);
 
         System.out.println(ROW_SEPARATOR);
-        for (Student student : schoolClass4C.getStudentList())
-        System.out.println(student);
-
+        int i = 0;
+        for (Student student : schoolClass4C.getStudentList()) {
+            i++;
+            System.out.println("# " + i + student);
+        }
         System.out.println(ROW_SEPARATOR);
         System.out.println(schoolClass4C.print());
         for (Student student : schoolClass4C.getStudentList())
